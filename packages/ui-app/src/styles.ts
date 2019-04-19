@@ -5,6 +5,7 @@
 import 'semantic-ui-css/semantic.min.css';
 
 import './styles/semantic.css';
+import './styles/theme/asure.css';
 import './styles/theme/polkadot.css';
 import './styles/theme/substrate.css';
 

@@ -2,20 +2,24 @@
 // This software may be modified and distributed under the terms
 // of the Apache-2.0 license. See the LICENSE file for details.
 
+import asureLogo from '@asure/ui-assets/asure-white.svg';
+import asureSmall from '@asure/ui-assets/notext-asure-white.svg';
 import polkadotLogo from '@polkadot/ui-assets/polkadot-white.svg';
 import polkadotSmall from '@polkadot/ui-assets/notext-polkadot.svg';
 import substrateLogo from '@polkadot/ui-assets/parity-substrate-white.svg';
 import substrateSmall from '@polkadot/ui-assets/notext-parity-substrate-white.svg';
-import settings from '@polkadot/ui-settings';
+import settings from '@asure/ui-settings';
 
 type LogoMap = Map<string, any>;
 
 const LOGOS_NORMAL: LogoMap = new Map([
+  ['asure', asureLogo],
   ['polkadot', polkadotLogo],
   ['substrate', substrateLogo]
 ]);
 
 const LOGOS_SMALL: LogoMap = new Map([
+  ['asure', asureSmall],
   ['polkadot', polkadotSmall],
   ['substrate', substrateSmall]
 ]);

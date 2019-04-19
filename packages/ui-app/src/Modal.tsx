@@ -6,7 +6,7 @@ import { BareProps } from './types';
 
 import React from 'react';
 import SUIModal from 'semantic-ui-react/dist/commonjs/modules/Modal/Modal';
-import settings from '@polkadot/ui-settings';
+import settings from '@asure/ui-settings';
 
 import { classes } from './util';
 
