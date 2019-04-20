@@ -8,7 +8,7 @@ import { Options } from './types';
  // tslint:disable-next-line
 //const isPolkadot = typeof window !== 'undefined' && window.location.host.indexOf('polkadot') !== -1;
 
-const WSS_ASURE = 'ws://108.61.178.131:9944/';
+const WSS_ASURE = 'wss://rpc.asure.network/';
 const WSS_POLKADOT = 'wss://poc3-rpc.polkadot.io/';
 const WSS_SUBSTRATE = 'wss://substrate-rpc.parity.io/';
 const LANGUAGE_DEFAULT = 'default';
